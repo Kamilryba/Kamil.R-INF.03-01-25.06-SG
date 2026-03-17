@@ -1,0 +1,51 @@
+*{
+    font-family: Garamond;
+    color: white;
+}
+header{
+    background-color: indigo;
+    text-align: center;
+    padding: 2px;
+}
+.lewy,.prawy{
+    background-color: indigo;
+    height: 600px;
+}
+.srodkowy{
+    background-color: black;
+    height: 600px;
+    overflow:scroll;
+}
+
+@media (min-width:800px) {
+    .lewy,.prawy{
+        width: 20%;
+        float: left;
+    }
+    .srodkowy{
+        width: 60%;
+        float: left;
+    }
+}
+footer{
+    background-color: indigo;
+    height: 150px;
+    clear: both;
+}
+.punkty{
+    background-color: tomato;
+    border-radius: 50%;
+    padding: 5px;
+}
+li{
+    padding: 5px;
+}
+.gra{
+    float: left;
+    text-align: center;
+    padding: 3px;
+}
+input{
+    margin: 10px;
+    color: indigo;
+}
